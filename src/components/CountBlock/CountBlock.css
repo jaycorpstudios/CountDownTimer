@@ -1,0 +1,20 @@
+.CountBlock {
+    display: flex;
+    width: 120px;
+    height: 100px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px lightgray;
+    border-radius: 5px;
+}
+.CountBlock__time {
+    font-size: 40px;
+}
+.CountBlock__title {
+    font-size: 15px;
+    color: lightgray;
+}
+.CountBlock__time, .CountBlock__title {
+    margin: 0;
+}
